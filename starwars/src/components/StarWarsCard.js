@@ -1,11 +1,13 @@
 import React from 'react'
-import styled from 'styled-components'
+import Styled from 'styled-components'
 
 
-const Card = styled.div`
+const Card = Styled.div`
 border: 1px solid red;
-width: 350px;
-margin: 15px:
+width: 30%;
+margin-right: 30px;
+background: lightblue;
+
 `
 
 

@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import StarWarsCard from './StarWarsCard.js'
-import styled from 'styled-components'
+import Styled from 'styled-components'
 import axios from 'axios';
 
 
-const wrapper = styled.div`
+const Test = Styled.div`
 display:flex;
-flex-wrap;
-
+flex-wrap:wrap;
+justify-content:center: 
+align-items: center;
+width: 100%;
+margin: 0 auto;
 `
 
 function StarWarsMain01() {
@@ -34,8 +37,8 @@ function StarWarsMain01() {
 
 
      return (
-
-        <wrapper>
+        <Test>
+        
             {starwarsUser.map (( person ) => {
                 console.log(person);
                 return(
@@ -46,7 +49,7 @@ function StarWarsMain01() {
                 );
 
             })}
-        </wrapper>
+        </Test>
      )
 
         }

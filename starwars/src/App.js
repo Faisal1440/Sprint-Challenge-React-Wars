@@ -6,8 +6,8 @@ import styled from 'styled-components'
 
 
 const Effect = styled.h1`
-border: 1px red solid;
-color: blue;`
+border: 1px blue solid;
+color: lightbrown;`
 
 
 const App = () => {
