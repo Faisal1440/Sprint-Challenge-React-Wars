@@ -1,5 +1,14 @@
 import React from 'react';
 import './App.css';
+import StarWarsMain from './components/StarWarsMain';
+import styled from 'styled-components'
+
+
+
+const Effect = styled.h1`
+border: 1px blue solid;
+color: lightbrown;`
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -12,6 +21,8 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <Effect>May The Force Be With You!</Effect>
+      <StarWarsMain/>
     </div>
   );
 }
